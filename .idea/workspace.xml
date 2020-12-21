@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9eccbdd0-99af-4644-8a76-65d747bf34bc" name="Default Changelist" comment="" />
+    <list default="true" id="9eccbdd0-99af-4644-8a76-65d747bf34bc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/openclose/ProductionPlantProcessTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/openclose/ProductionPlantProcessTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/openclose.ProductionPlantProcessTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/openclose.ProductionPlantProcessTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/openclose.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/openclose.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-openclose.ProductionPlantProcessTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-openclose.ProductionPlantProcessTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/openclose/ProductionPlantProcessTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/openclose/ProductionPlantProcessTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -41,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/openclose/ProductionPlantProcessTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+            <state relative-caret-position="150">
+              <caret line="26" column="78" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,6 +131,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -134,6 +154,7 @@
     <option name="width" value="1382" />
     <option name="height" value="754" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -210,6 +231,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
@@ -232,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.ProductionPlantProcessTest.calculateRealBufferTest">
+  <component name="RunManager" selected="Gradle.ProductionPlantProcessTest">
     <configuration name="ProductionPlantProcessTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -315,8 +337,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.ProductionPlantProcessTest.calculateRealBufferTest" />
         <item itemvalue="Gradle.ProductionPlantProcessTest" />
+        <item itemvalue="Gradle.ProductionPlantProcessTest.calculateRealBufferTest" />
         <item itemvalue="Gradle.Tests in 'openclose'" />
         <item itemvalue="Gradle.ProductionPlantProcessTest.testHelloWorld" />
       </list>
@@ -343,15 +365,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests_in_'openclose' - 2020.12.21 at 18h 04m 44s.xml">
-      <configuration name="Tests in 'openclose'" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="Tests_in_'openclose' - 2020.12.21 at 18h 05m 05s.xml">
-      <configuration name="Tests in 'openclose'" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ProductionPlantProcessTest_calculateRealBufferTest - 2020.12.21 at 18h 09m 41s.xml">
-      <configuration name="ProductionPlantProcessTest.calculateRealBufferTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
     <history-entry file="ProductionPlantProcessTest - 2020.12.21 at 18h 11m 55s.xml">
       <configuration name="ProductionPlantProcessTest" configurationId="GradleRunConfiguration" />
     </history-entry>
@@ -373,10 +386,18 @@
     <history-entry file="ProductionPlantProcessTest - 2020.12.21 at 18h 19m 37s.xml">
       <configuration name="ProductionPlantProcessTest" configurationId="GradleRunConfiguration" />
     </history-entry>
+    <history-entry file="ProductionPlantProcessTest_calculateRealBufferTest - 2020.12.21 at 18h 19m 49s.xml">
+      <configuration name="ProductionPlantProcessTest.calculateRealBufferTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ProductionPlantProcessTest - 2020.12.21 at 18h 28m 38s.xml">
+      <configuration name="ProductionPlantProcessTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ProductionPlantProcessTest - 2020.12.21 at 18h 28m 56s.xml">
+      <configuration name="ProductionPlantProcessTest" configurationId="GradleRunConfiguration" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -386,12 +407,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" weight="0.38294315" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.6588629" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32943144" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3896321" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3277592" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -491,8 +512,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/openclose/ProductionPlantProcessTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+        <state relative-caret-position="150">
+          <caret line="26" column="78" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

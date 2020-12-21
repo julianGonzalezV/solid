@@ -24,7 +24,7 @@ public class ProductionPlantProcessTest  {
 
         ordersExpected = new ArrayList<>();
         ordersExpected.add(new ProductionOrder(new Date(), 10000, new Date(),1, 'c'));
-        ordersExpected.add(new ProductionOrder(new Date(), 80000, new Date(),8, 'z'));
+        ordersExpected.add(new ProductionOrder(new Date(), 80000, new Date(),9, 'z'));
     }
 
     @Test
