@@ -2,11 +2,11 @@ package openclose.v2;
 
 import java.util.Date;
 
-public class Zapato extends ProductionOrder {
-    public Zapato() {
+public class ShoesPo extends ProductionOrder {
+    public ShoesPo() {
     }
 
-    public Zapato(Date deliveryDate, double cost, Date startDate, double buffer) {
+    public ShoesPo(Date deliveryDate, double cost, Date startDate, double buffer) {
         super(deliveryDate, cost, startDate, buffer);
     }
     @Override

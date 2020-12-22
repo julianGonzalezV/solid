@@ -1,11 +1,19 @@
 package openclose;
 
-import openclose.v1.ProductionOrder;
+import dependencyinversion.v1.Manually;
+import dependencyinversion.v2.BuildingMethod;
 
 import java.util.List;
 import java.util.stream.Collectors;
 
 public class ProductionPlantProcess {
+    private  BuildingMethod buildingMethod;
+    public ProductionPlantProcess() {
+    }
+
+    public ProductionPlantProcess(BuildingMethod buildingMethod) {
+        this.buildingMethod = buildingMethod;
+    }
 
     public static List<openclose.v1.ProductionOrder>  calculateRealBufferTestV1(List<openclose.v1.ProductionOrder> ProductionOrders){
         return ProductionOrders.stream().map( x -> {
@@ -23,7 +31,15 @@ public class ProductionPlantProcess {
 
 
 
-    public static double  getTotalBuffers(List<Double> ProductionOrders){
+    public  double  getTotalBuffers(List<Double> ProductionOrders){
         return ProductionOrders.stream().reduce((x,y) -> x+y).get();
+    }
+
+    public  String  buildingMethodV1(){
+        return new Manually().getData();
+    }
+
+    public  String  buildingMethod(){
+        return buildingMethod.getData();
     }
 }
