@@ -59,13 +59,13 @@ public class ProductionPlantProcessTest  {
 
 
     @Test
-    @DisplayName("Building process by hand")
+    @DisplayName("By hand Building process ")
     public void  buildingHandMethod(){
         productionPlantProcess = new ProductionPlantProcess(new ByHand());
         assertEquals(productionPlantProcess.buildingMethod(), "A mano, en donde nuestros artesanos son unos tesos en esto");
     }
     @Test
-    @DisplayName("Building process Automatic")
+    @DisplayName("Automatic Building process ")
     public void  buildingAutoMethod(){
         productionPlantProcess = new ProductionPlantProcess(new Automatic());
         assertEquals(productionPlantProcess.buildingMethod(), "Automatic,maquinas");
