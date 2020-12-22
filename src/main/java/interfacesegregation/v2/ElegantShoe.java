@@ -2,15 +2,15 @@ package interfacesegregation.v2;
 
 import java.util.List;
 
-public class ElegantShoe implements BaseShoe, ShoeCord, ShoeLeather {
+public abstract class ElegantShoe implements BaseShoe, ShoeCord, ShoeLeather {
     @Override
-    public String confListOfSize(List<String> countrySizes) {
+    public String confListOfSize() {
         return "tengo lista de tamanios";
     }
 
     @Override
     public String calculateComfort() {
-        return " calificacion de comfort de 9 de 10";
+        return " calificacion de comfort de 8.5 de 10";
     }
 
     @Override

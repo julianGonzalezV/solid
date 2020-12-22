@@ -1,4 +1,4 @@
-package openclose;
+package solid;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -6,24 +6,23 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 import dependencyinversion.v2.Automatic;
-import dependencyinversion.v2.BuildingMethod;
 import dependencyinversion.v2.ByHand;
-import openclose.v1.ProductionOrder;
-import openclose.v2.TShirtPo;
-import openclose.v2.ShoesPo;
+import solid.v1.ProductionOrder;
+import solid.v2.TShirtPo;
+import solid.v2.ShoesPo;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class ProductionPlantProcessTest  {
-    private List<openclose.v1.ProductionOrder> orders;
-    private List<openclose.v2.ProductionOrder> ordersV2;
-    ProductionPlantProcess productionPlantProcess = new ProductionPlantProcess();
+    private List<solid.v1.ProductionOrder> orders;
+    private List<solid.v2.ProductionOrder> ordersV2;
+    private ProductionPlantProcess productionPlantProcess = new ProductionPlantProcess();
 
     void initTestConf(){
         orders = new ArrayList<>();
-        orders.add(new openclose.v1.ProductionOrder(new Date(), 10000, new Date(),1, 'c'));
-        orders.add(new openclose.v1.ProductionOrder(new Date(), 80000, new Date(),3, 'z'));
+        orders.add(new solid.v1.ProductionOrder(new Date(), 10000, new Date(),1, 'c'));
+        orders.add(new solid.v1.ProductionOrder(new Date(), 80000, new Date(),3, 'z'));
         //otro b*1.5
         //orders.add(new ProductionOrder(new Date(), 1200000, new Date(),1, 'o'));
     }

@@ -1,4 +1,4 @@
-package openclose;
+package solid;
 
 import dependencyinversion.v1.Manually;
 import dependencyinversion.v2.BuildingMethod;
@@ -15,7 +15,7 @@ public class ProductionPlantProcess {
         this.buildingMethod = buildingMethod;
     }
 
-    public static List<openclose.v1.ProductionOrder>  calculateRealBufferTestV1(List<openclose.v1.ProductionOrder> ProductionOrders){
+    public static List<solid.v1.ProductionOrder>  calculateRealBufferTestV1(List<solid.v1.ProductionOrder> ProductionOrders){
         return ProductionOrders.stream().map( x -> {
             //bad smell
            if(x.getType()=='z') x.setBuffer(x.getBuffer() * 3);

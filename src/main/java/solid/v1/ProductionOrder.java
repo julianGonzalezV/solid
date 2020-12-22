@@ -1,4 +1,4 @@
-package openclose.v1;
+package solid.v1;
 
 import java.util.Date;
 
