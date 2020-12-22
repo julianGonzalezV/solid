@@ -2,21 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9eccbdd0-99af-4644-8a76-65d747bf34bc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/openclose/v2/Camiseta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/openclose/v2/ProductionOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/openclose/v2/Zapato.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/openclose/ProductionPlantProcess.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/openclose/ProductionPlantProcess.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/openclose/ProductionPlantProcessTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/openclose/ProductionPlantProcessTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/openclose.ProductionPlantProcessTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/openclose.ProductionPlantProcessTest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/openclose.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/openclose.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-openclose.ProductionPlantProcessTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-openclose.ProductionPlantProcessTest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/openclose/ProductionOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/openclose/v1/ProductionOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/openclose/ProductionPlantProcess.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/openclose/ProductionPlantProcess.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/openclose/ProductionPlantProcessTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/openclose/ProductionPlantProcessTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -41,10 +49,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/openclose/ProductionOrder.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/openclose/v1/ProductionOrder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
+            <state relative-caret-position="80">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding>
                 <element signature="e#1147#1148#0" expanded="true" />
                 <element signature="e#1174#1175#0" expanded="true" />
@@ -58,8 +66,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/openclose/ProductionPlantProcessTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="26" column="78" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
+            <state relative-caret-position="209">
+              <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -97,18 +105,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gradlew.bat">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/openclose/ProductionPlantProcess.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="32" />
+            <state relative-caret-position="143">
+              <caret line="25" column="41" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/openclose/v2/Camiseta.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/openclose/v2/ProductionOrder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-604">
+              <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/openclose/v2/Zapato.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
             </state>
           </provider>
         </entry>
@@ -139,11 +169,16 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/openclose/V1/ProductionOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/openclose/v1/v2/ProductionOrder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/openclose/v2/ProductionOrder.java" />
         <option value="$PROJECT_DIR$/src/main/java/openclose/v1/ProductionOrder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/openclose/ProductionPlantProcess.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/openclose/ProductionOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/openclose/ProductionOrderV2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/openclose/abstraction/ProductionOrderV2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/openclose/v2/ProductionOrderV2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/openclose/v2/ProductionOrder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/openclose/v2/Camiseta.java" />
+        <option value="$PROJECT_DIR$/src/main/java/openclose/v2/Zapato.java" />
+        <option value="$PROJECT_DIR$/src/main/java/openclose/ProductionPlantProcess.java" />
         <option value="$PROJECT_DIR$/src/test/java/openclose/ProductionPlantProcessTest.java" />
       </list>
     </option>
@@ -154,7 +189,9 @@
     <option name="width" value="1382" />
     <option name="height" value="754" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -193,6 +230,24 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="openclose" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openclose" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="solid" type="b2602c69:ProjectViewProjectNode" />
+              <item name="solid" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="openclose" type="462c0819:PsiDirectoryNode" />
+              <item name="v2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="solid" type="b2602c69:ProjectViewProjectNode" />
@@ -239,6 +294,7 @@
       <recent name="openclose" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="openclose" />
       <recent name="openclose.v1" />
     </key>
   </component>
@@ -281,6 +337,26 @@
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;openclose.ProductionPlantProcessTest.calculateRealBufferTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="ProductionPlantProcessTest.calculateRealBufferTestV2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;openclose.ProductionPlantProcessTest.calculateRealBufferTestV2&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -338,6 +414,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Gradle.ProductionPlantProcessTest" />
+        <item itemvalue="Gradle.ProductionPlantProcessTest.calculateRealBufferTestV2" />
         <item itemvalue="Gradle.ProductionPlantProcessTest.calculateRealBufferTest" />
         <item itemvalue="Gradle.Tests in 'openclose'" />
         <item itemvalue="Gradle.ProductionPlantProcessTest.testHelloWorld" />
@@ -365,39 +442,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProductionPlantProcessTest - 2020.12.21 at 18h 11m 55s.xml">
+    <history-entry file="ProductionPlantProcessTest - 2020.12.21 at 19h 20m 56s.xml">
       <configuration name="ProductionPlantProcessTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ProductionPlantProcessTest - 2020.12.21 at 18h 17m 56s.xml">
+    <history-entry file="ProductionPlantProcessTest - 2020.12.21 at 19h 21m 32s.xml">
       <configuration name="ProductionPlantProcessTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ProductionPlantProcessTest - 2020.12.21 at 18h 18m 09s.xml">
+    <history-entry file="ProductionPlantProcessTest - 2020.12.21 at 19h 22m 47s.xml">
       <configuration name="ProductionPlantProcessTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ProductionPlantProcessTest - 2020.12.21 at 18h 18m 16s.xml">
+    <history-entry file="ProductionPlantProcessTest - 2020.12.21 at 19h 25m 02s.xml">
       <configuration name="ProductionPlantProcessTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ProductionPlantProcessTest - 2020.12.21 at 18h 18m 24s.xml">
+    <history-entry file="ProductionPlantProcessTest - 2020.12.21 at 19h 26m 04s.xml">
       <configuration name="ProductionPlantProcessTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ProductionPlantProcessTest - 2020.12.21 at 18h 18m 32s.xml">
+    <history-entry file="ProductionPlantProcessTest - 2020.12.21 at 19h 26m 58s.xml">
       <configuration name="ProductionPlantProcessTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ProductionPlantProcessTest - 2020.12.21 at 18h 19m 37s.xml">
+    <history-entry file="ProductionPlantProcessTest_calculateRealBufferTestV2 - 2020.12.21 at 19h 27m 10s.xml">
+      <configuration name="ProductionPlantProcessTest.calculateRealBufferTestV2" configurationId="GradleRunConfiguration" />
+    </history-entry>
+    <history-entry file="ProductionPlantProcessTest - 2020.12.21 at 19h 28m 02s.xml">
       <configuration name="ProductionPlantProcessTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ProductionPlantProcessTest_calculateRealBufferTest - 2020.12.21 at 18h 19m 49s.xml">
-      <configuration name="ProductionPlantProcessTest.calculateRealBufferTest" configurationId="GradleRunConfiguration" />
-    </history-entry>
-    <history-entry file="ProductionPlantProcessTest - 2020.12.21 at 18h 28m 38s.xml">
+    <history-entry file="ProductionPlantProcessTest - 2020.12.21 at 19h 35m 07s.xml">
       <configuration name="ProductionPlantProcessTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="ProductionPlantProcessTest - 2020.12.21 at 18h 28m 56s.xml">
+    <history-entry file="ProductionPlantProcessTest - 2020.12.21 at 19h 35m 16s.xml">
       <configuration name="ProductionPlantProcessTest" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -407,12 +485,12 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.6588629" />
+      <window_info anchor="bottom" id="Terminal" weight="0.28929767" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.32943144" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3277592" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41304347" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -476,29 +554,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/openclose/ProductionOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="64" column="18" selection-start-line="64" selection-start-column="18" selection-end-line="64" selection-end-column="18" />
-          <folding>
-            <element signature="e#1147#1148#0" expanded="true" />
-            <element signature="e#1174#1175#0" expanded="true" />
-            <element signature="e#1212#1213#0" expanded="true" />
-            <element signature="e#1244#1245#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/openclose/ProductionPlantProcess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.junit.jupiter/junit-jupiter-api/5.3.1/b03f607c0822a283c972e37eaeacb00dc3a3c2e7/junit-jupiter-api-5.3.1-sources.jar!/org/junit/jupiter/api/Assertions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="113">
@@ -510,10 +565,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/openclose/v1/ProductionOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding>
+            <element signature="e#1147#1148#0" expanded="true" />
+            <element signature="e#1174#1175#0" expanded="true" />
+            <element signature="e#1212#1213#0" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/openclose/v2/ProductionOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-604">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/openclose/v2/Camiseta.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="81" selection-start-line="8" selection-start-column="81" selection-end-line="8" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/openclose/v2/Zapato.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="8" column="79" selection-start-line="8" selection-start-column="79" selection-end-line="8" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/openclose/ProductionPlantProcess.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/openclose/ProductionPlantProcessTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="26" column="78" selection-start-line="26" selection-start-column="78" selection-end-line="26" selection-end-column="78" />
+        <state relative-caret-position="209">
+          <caret line="49" column="39" selection-start-line="49" selection-start-column="39" selection-end-line="49" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

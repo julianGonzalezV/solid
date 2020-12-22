@@ -1,23 +1,21 @@
-package openclose;
+package openclose.v2;
 
 import java.util.Date;
 
-public class ProductionOrder {
+public abstract class ProductionOrder {
     private Date deliveryDate;
     private double cost;
     private Date startDate;
     private  double buffer;
-    private char type;
 
     public ProductionOrder() {
     }
 
-    public ProductionOrder(Date deliveryDate, double cost, Date startDate, double buffer, char type) {
+    public ProductionOrder(Date deliveryDate, double cost, Date startDate, double buffer) {
         this.deliveryDate = deliveryDate;
         this.cost = cost;
         this.startDate = startDate;
         this.buffer = buffer;
-        this.type = type;
     }
 
     public Date getDeliveryDate() {
@@ -52,13 +50,6 @@ public class ProductionOrder {
         this.buffer = buffer;
     }
 
-    public char getType() {
-        return type;
-    }
-
-    public void setType(char type) {
-        this.type = type;
-    }
 
 
     @Override
@@ -68,7 +59,6 @@ public class ProductionOrder {
                 ", cost=" + cost +
                 ", startDate=" + startDate +
                 ", buffer=" + buffer +
-                ", type=" + type +
                 '}';
     }
 }
